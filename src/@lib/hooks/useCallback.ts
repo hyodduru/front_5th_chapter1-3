@@ -4,7 +4,7 @@ import { useMemo } from "./useMemo";
 
 export function useCallback<T extends Function>(
   factory: T,
-  _deps: DependencyList
+  _deps: DependencyList,
 ) {
   const deps = [..._deps];
 
